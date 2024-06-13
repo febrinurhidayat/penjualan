@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="keranjang.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="keranjang.js">
+  <title>Document</title>
+</head>
+<nav class="navbar bg-primary fixed-top">
+  <div class="container-fluid">
+    <a id="c" class="navbar-brand" onclick="location.reload();">SERBIS</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="navbar offcanvas-header bg-primary">
+        <h5 id="c" class="offcanvas-title" id="offcanvasNavbarLabel">
+          SERBIS
+        </h5>
+        <button
+          type="button"
+          class="bg-primary btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a
+              id="L"
+              class="nav-link active"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              id="L"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Hubungi kami!
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a
+                  id="L"
+                  class="dropdown-item"
+                  href="https://api.whatsapp.com/send?phone=6283805624037&text=Hallo Febri"
+                  >Kerjasama</a
+                >
+              </li>
+              <li>
+                <a
+                  id="L"
+                  class="dropdown-item"
+                  href="https://instagram.com/_febrinh?igshid=YmMyMTA2M2Y="
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a
+                  id="L"
+                  class="dropdown-item"
+                  href="https://api.whatsapp.com/send?phone=6283805624037&text=Hallo Febri"
+                  >Kritik Dan Saran</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="d-flex mt-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="background"></div>
+  <h1 class="title">SILAHKAN BELANJA SESUAI KEBUTUHAN ANDA!</h1>
+<div class="cont">
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/sepatu.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">Sepatu</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/fotostudio.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">Foto Studio</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/londrysepatu.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">londry sepatu</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/makandanminum.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">Makan dan Minuman</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/ikanhias.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">Ikan hias</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">londry sepatu</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">londry sepatu</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+    </form>
+  </div>
+</div>
+<div id="container" class="card m-2" style="width: 18rem;">
+  <img src="asset/.jpg" class="card-img-top" alt="..." width="100px" height="200px">
+  <div id="beli" class="card-body">
+    <h5 class="card-title">londry sepatu</h5>
+    <p class="card-text">harga Rp.100.000</p>
+    <form action="https://wa.me/6283805624037">
+      <button class="beli">Membeli</button>
+  </form>
+  </div>
+</div>
+</div>
+
+<footer>
+  <p class="copyright bg-primary">&copy; copyright Technopreneurship 2022</p>
+</footer>
+</body>
+</html>
